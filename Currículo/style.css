@@ -32,20 +32,24 @@ h1 {
     float: right;
 }
 
-/* Remove as margens do body */
+/* Remove as margens do body e coloca o background */
 body{
     margin: 0px;
+    background-image: url(media/water.jpg);
+    background-size: contain;
+
 }
 
 /* Container principal */
 .container {
     width: 70%;
-    margin: 0 auto;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
 }
 
 /* Estilo dos títulos h2 no container */
 .container h2 {
-    margin-top: 60px;
     border-bottom: 1px solid #d1d1d1;
     padding-bottom: 10px;
 }
