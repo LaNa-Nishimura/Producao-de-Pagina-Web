@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Faz o site ajustar-se à largura da tela do dispositivo. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link para CSS externo -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Título da Página -->
+    <title>Currículo</title>
+</head>
+
+<body>
+    <!-- Tags Semânticas: Header -->
+    <header>
+        <div class="top">
+            <!-- Textos de apresentação (h1, h2 e p) -->
+            <h1>Currículo</h1>
+            <!-- Mídia (imagem) -->
+            <img src="media/lua.png" class="logo">
+        </div>
+    </header>
+
+    <!-- Tags Semânticas: Main (Conteúdo da página) -->
+    <main>
+        <div class="container">
+            <!-- Textos de apresentação (h1, h2 e p) -->
+            <h2>Meus Dados</h2>
+            <!-- Tags Semânticas: Article -->
+            <article class="dados">
+                <div class="info">
+                    <!-- Textos de apresentação (h1, h2 e p) -->
+                    <p><b>Nome: </b>Allana Vitória Zucco Paganini</p>
+                    <p><b>Cidade: </b>Videira - SC</p>
+                    <p><b>Fone: </b>(49) 9 9965-9254</p>
+                    <p><b>Email: </b>allanapaganini11@gmail.com</p>
+                    <!-- Link com a href -->
+                    <p><b>Instagram: </b><a href="https://www.instagram.com/lana_paganini">lana_paganini</a></p>
+                </div>
+                <!-- Mídia (imagem) -->
+                <img src="media/furina.jpg" class="foto">
+            <!-- Tags Semânticas: Section -->
+            </article>
+
+            <!-- Textos de apresentação (h1, h2 e p) -->
+            <h2>Formação</h2>
+            <!-- Tags Semânticas: Section -->
+            <section class="formacao">
+                <!-- Lista com ul e li -->
+                <ul>
+                    <li><b>2023 - cursando | Ensino Superior</b></li>
+                    <ul>
+                        <li>Unoesc - Videira</li>
+                        <li>Ciência da Computação</li>
+                        <li>6ª Fase</li>
+                    </ul>
+                    <li><b>2020 - 2022 | Ensino Médio</b></li>
+                    <ul>
+                        <li>IFC Videira</li>
+                        <li>Formação: Técnica em Informática</li>
+                    </ul>
+                    <li><b>2019 | Curso</b></li>
+                    <ul>
+                        <li>Otimiza Cursos</li>
+                        <li>Assistente Administrativo</li>
+                    </ul>
+                </ul>
+            </section>
+
+            <!-- Textos de apresentação (h1, h2 e p) -->
+            <h2>Experiência</h2>
+            <!-- Tags Semânticas: Section -->
+            <section class="experiencia">
+                <!-- Lista com ul e li -->
+                <ul>
+                    <li><b>2023 - atual | Vendedora</b></li>
+                    <ul>
+                        <li>Vendedora nas Lojas RZ Parizotto</li>
+                    </ul>
+                    <li><b>2022 | Estágio Obrigatório - IFC</b></li>
+                    <ul>
+                        <li>50 horas - Realizado no laboratório de Redes Locais no Instituto Federal Catarinense (IFC)</li>
+                        <li>80 horas - Realizado no setor de TI da Unoesc Campus Videira</li>
+                    </ul>
+                </ul>
+            </section>
+
+            <!-- Textos de apresentação (h1, h2 e p) -->
+            <h2>Deixe seu comentário</h2>
+            <!-- Botão usado para mostrar e esconder -->
+            <div class="botaoComentario">
+                <button id="botaoComentario">Deseja deixar um comentário?</button>
+            </div>
+            <!-- Tags Semânticas: Section -->
+            <section class="comentario">
+                <!-- Campo de formulário com label e input -->
+                <form action="#" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required></textarea>
+                    <!-- Botão de enviar -->
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- Tags Semânticas: Footer -->
+    <footer>
+        <div class="rodape">
+                <p><b>Fim do currículo</b></p>
+        </div>
+    </footer>
+
+    <!-- Link para Script externo -->
+    <script src="script.js"></script>
+</body>
+</html>

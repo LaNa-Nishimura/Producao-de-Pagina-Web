@@ -1,0 +1,204 @@
+/* CSS externo */
+
+/* Fonte e tamanho do site */
+html {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+}
+
+/* Estilo do header */
+header {
+    background-color: #0059ff;
+    color: #ffffff;
+}
+
+/* Barra superior do header */
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2rem;
+}
+
+/* Logo no header */
+.logo {
+    width: 70px;
+    float: right;
+}
+
+/* Remove as margens do body */
+body{
+    margin: 0px;
+}
+
+/* Container principal */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Estilo dos títulos h2 no container */
+.container h2 {
+    margin-top: 60px;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 10px;
+}
+
+/* Bloco dos dados pessoais */
+.dados {
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 540px;
+}
+
+/* Bloco de informações nos dados pessoais  */
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Espaçamento dos p dentro do info */
+.info p {
+    margin: 10px 0;
+}
+
+/* Estilo da imagem do perfil  */
+.foto {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Bloco de formação */
+.formacao {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+/* Itens da lista da formação */
+.formacao li {
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+/* Bloco de experiência */
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Itens da lista de experiência */
+.experiencia li {
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+/* Bloco de comentario */
+.comentario {
+    display: none;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Botão do comentario */
+.botaoComentario button {
+    padding: 12px;
+    align-self: center;
+    background-color: #0059ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 30px;
+}
+
+/* Hover (passar o mouse sobre o botão) */
+.botaoComentario button:hover {
+    background-color: #000000;
+}
+
+/* Form do comentario */
+.comentario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comentario input,
+.comentario textarea {
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Botão de enviar */
+.comentario button {
+    padding: 12px;
+    align-self: center;
+    background-color: #0059ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+/* Hover (passar o mouse sobre o botão) */
+.comentario button:hover {
+    background-color: #000000;
+}
+
+/* Labels do comentario */
+.comentario label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+/* Estilo dos links */
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Hover (passar o mouse sobre o link) */
+a:hover {
+    color: #ff0101;
+    text-decoration: underline;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #0059ff;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Estilo do p no footer */
+.rodape p {
+    display: inline-block;
+}
